@@ -18,4 +18,4 @@ This repository is intended for learning and practicing HTML. It can be a refere
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/your-repo-name.git
+   git clone https://github.com/zahid-gulzar/HTML.git
