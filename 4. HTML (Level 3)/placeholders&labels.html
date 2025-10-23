@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Placeholders & Labels</title>
+    </head>
+    <body>
+        <!-- Placeholders & Labels -->
+
+        <!-- Placeholders -->
+         <form action="/action">
+            Username
+            <input type="text" placeholder="enter username">
+            <br>
+            Password
+            <input type="password" placeholder="enter password">
+            <br>
+         </form>
+
+         <hr>
+
+        <!-- Labels in Basic Approach -->
+         <form action="/action">
+            <label>
+                Username
+                <input type="text" placeholder="enter username">
+            </label>
+            <br>
+            <label>
+                Password
+                <input type="password" placeholder="enter password">
+            </label>
+            <br>
+         </form>
+
+         <hr>
+
+        <!-- Labels in Classical Approach -->
+         <form action="/action">
+            <div>
+                <label for="username">Username : </label>
+                <input type="text" placeholder="enter username" id="username">
+            </div>
+            <div>
+                <label for="password">Password : </label>
+                <input type="password" placeholder="enter password" id="password">
+            </div>
+         </form>
+    </body>
+</html>
